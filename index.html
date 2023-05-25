@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="animation-container">
+    <div id="element1" class="square">Element 1</div>
+    <div id="element2" class="square">Element 2</div>
+    <div id="element3" class="square">Element 3</div>
+
+</div>
+<div class="controls">
+    <button onclick="pauseAnimation()">Pause</button>
+    <button onclick="startAnimation()">Start</button>
+    <button onclick="endAnimation()">End</button>
+</div>
+<div class="slider">
+    <input oninput="updateAnimationProgress()" type="range" id="animationSlider" min="0" max="100" value="0">
+</div>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

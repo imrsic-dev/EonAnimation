@@ -1,0 +1,63 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 60px;
+}
+
+.animation-container {
+    position: relative;
+}
+
+.controls {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 10px 10px;
+}
+
+.slider input {
+    width: 170px;
+}
+
+button {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+}
+
+#element1 {
+    background-color: red;
+    opacity: 0;
+    top: 30px;
+    left: -40px;
+}
+
+#element2 {
+    background-color: blue;
+    opacity: 0;
+    top: -100px;
+    left: 120px;
+}
+
+#element3 {
+    background-color: yellow;
+    opacity: 0;
+    top: 190px;
+    left: 90px;
+}
